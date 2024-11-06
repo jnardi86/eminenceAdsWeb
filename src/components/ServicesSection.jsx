@@ -1,6 +1,8 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from 'swiper/modules';
 import 'swiper/css';
+import 'swiper/css/navigation';
 
 // Importación de los íconos SVG como componentes
 import MercadoLibreIcon from './icons/MercadoLibreIcon';
@@ -39,6 +41,9 @@ const ServicesSection = () => {
             <Swiper
                 spaceBetween={20}
                 slidesPerView={1}
+                modules={[Navigation]}
+                navigation
+                loop={true}
                 breakpoints={{
                     640: { slidesPerView: 1 },
                     768: { slidesPerView: 2 },

@@ -1,6 +1,9 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
+// import required modules
+import { Navigation } from 'swiper/modules';
 import 'swiper/css';
+import 'swiper/css/navigation';
 
 // Rutas de las imágenes de las certificaciones
 const certifications = [
@@ -24,13 +27,16 @@ const CertificationsSection = () => {
         }}
         >
             <h3 className="text-3xl md:text-4xl font-bold text-center mb-10 font-poppins text-white">
-                Las certificaciones que avalan
+                Las certificaciones que avalan a
                 <span className="text-brightYellow"> Eminence</span>
                 <span className="text-white">Ads</span>
             </h3>
             <Swiper
                 spaceBetween={20}
                 slidesPerView={1}
+                modules={[Navigation]}
+                navigation
+                loop={true}
                 breakpoints={{
                     640: { slidesPerView: 1 },
                     768: { slidesPerView: 2 },
