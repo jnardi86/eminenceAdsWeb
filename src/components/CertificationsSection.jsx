@@ -19,12 +19,12 @@ const certifications = [
 const CertificationsSection = () => {
     return (
         <section
-        className="mt-64 py-12 px-6"
-        style={{
-            backgroundImage: 'url(/images/Eminence_section_2.png)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-        }}
+            className="mt-64 py-12 px-6"
+            style={{
+                backgroundImage: 'url(/images/Eminence_section_2.png)',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+            }}
         >
             <h3 className="text-3xl md:text-4xl font-bold text-center mb-10 font-poppins text-white">
                 Las certificaciones que avalan a
@@ -45,9 +45,9 @@ const CertificationsSection = () => {
             >
                 {certifications.map((certification, index) => (
                     <SwiperSlide key={index} className="flex justify-center">
-                            <div className="flex justify-center items-center mb-4">
-                                <img src={certification.imgSrc} alt={certification.title} width="300px" height="300px" />
-                            </div>
+                        <div className="flex justify-center items-center mb-4 transition duration-500 ease-in-out transform hover:scale-105 hover:shadow-2xl hover:border-opacity-0 border-2 border-brightYellow rounded-lg overflow-hidden">
+                            <img src={certification.imgSrc} alt={certification.title} className="w-72 h-72 object-cover" />
+                        </div>
                     </SwiperSlide>
                 ))}
             </Swiper>

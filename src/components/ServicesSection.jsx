@@ -52,9 +52,9 @@ const ServicesSection = () => {
             >
                 {services.map((service, index) => (
                     <SwiperSlide key={index} className="flex justify-center">
-                        <div className="bg-gradient-to-b from-darkBlue to-lightBlue px-4 py-8 rounded-lg w-full max-w-sm h-96 text-center border-solid border-4 border-brightYellow">
-                            <h3 className="text-3xl font-bold mb-4 py-4 font-poppins">{service.title}</h3>
-                            <div className="flex justify-center items-center mb-4 py-2">{service.icon}</div>
+                        <div className="bg-gradient-to-b from-darkBlue to-lightBlue px-4 py-8 rounded-lg w-full max-w-sm h-96 text-center border-4 border-brightYellow transition duration-500 ease-in-out transform hover:scale-105 hover:border-opacity-0 hover:shadow-2xl">
+                            <h3 className="text-3xl font-bold mb-4 py-4 font-poppins text-white">{service.title}</h3>
+                            <div className="flex justify-center items-center mb-4 py-2 text-white">{service.icon}</div>
                             <p className="text-base text-white font-medium font-montserrat">{service.description}</p>
                         </div>
                     </SwiperSlide>
