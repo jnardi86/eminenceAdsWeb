@@ -1,5 +1,6 @@
 import React from 'react';
 import { Zoom, Fade, Slide } from 'react-awesome-reveal';
+import Button from './Button';
 
 const Hero = () => {
   return (
@@ -30,6 +31,10 @@ const Hero = () => {
             <p className="text-lg mt-2 px-1 font-montserrat text-white text-start max-w-lg md:text-2xl hover:transform hover:scale-105 transition duration-1000 ease-in-out">
               Llevamos tu presencia digital al siguiente nivel con estrategias a medida.
             </p>
+            <div className='mt-6 flex justify-center px-4'>
+              <Button text="Contactanos" targetId="contactForm" />
+            </div>
+
           </Fade>
         </Zoom>
       </div>
