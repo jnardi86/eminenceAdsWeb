@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-darkBlue mt-64 text-gray-300 py-32">
+    <footer className="bg-darkBlue text-gray-300 py-32">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         {/* Nombre de la agencia y desarrollo */}
         <div className="text-center px-2 md:text-left mb-10 md:mb-0 hover:transform hover:scale-105 transition duration-500 ease-in-out">

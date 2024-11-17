@@ -2,7 +2,7 @@ import React from 'react';
 
 const MercadoAdsSection = () => {
   return (
-    <section className="flex flex-col md:flex-row mt-64">
+    <section className="flex flex-col md:flex-row">
       {/* Primera mitad - Azul Oscuro */}
       <div className="bg-white text-brightYellow p-8 md:w-1/2 flex items-center">
         <div className="text-start md:text-left">

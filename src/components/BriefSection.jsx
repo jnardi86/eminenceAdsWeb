@@ -2,7 +2,7 @@ import React from 'react';
 
 const BriefSection = () => {
   return (
-    <section className="bg-brightYellow text-darkBlue py-12 md:py-20 mt-64">
+    <section className="bg-brightYellow text-darkBlue py-24 md:py-20">
       <div className="max-w-5xl mx-auto px-6 md:flex md:items-center md:space-x-8">
         
         {/* Logo grande centrado en mobile y alineado a la izquierda en desktop */}

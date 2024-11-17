@@ -36,7 +36,7 @@ const services = [
 
 const ServicesSection = () => {
     return (
-        <section className="bg-darkBlue mt-64 py-12 px-6 text-brightYellow">
+        <section className="bg-darkBlue py-12 px-6 text-brightYellow">
             <h3 className="text-3xl md:text-4xl font-bold text-center mb-10 font-poppins">Conocé nuestros Servicios</h3>
             <Swiper
                 spaceBetween={20}

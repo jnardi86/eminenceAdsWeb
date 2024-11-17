@@ -3,7 +3,7 @@ import React from 'react';
 const MercadoLibreSection = () => {
   return (
     <section 
-      className="relative py-12 md:py-20 mt-64 bg-cover bg-center text-white" 
+      className="relative py-12 md:py-20 bg-cover bg-center text-white" 
       style={{ backgroundImage: `url(/images/banner_section.png)` }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-10"></div> {/* Overlay oscuro para mayor legibilidad */}

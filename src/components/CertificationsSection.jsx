@@ -19,7 +19,7 @@ const certifications = [
 const CertificationsSection = () => {
     return (
         <section
-            className="mt-64 py-12 px-6"
+            className="py-12 px-6"
             style={{
                 backgroundImage: 'url(/images/Eminence_section_2.png)',
                 backgroundSize: 'cover',

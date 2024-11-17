@@ -68,7 +68,7 @@ const ContactForm = () => {
 
   return (
     <div
-      className="max-w-md mx-auto px-6 py-12 lg:mt-4 bg-darkBlue rounded-sm shadow-md"
+      className="max-w-md mx-auto px-6 mb-8 py-12 lg:mt-4 bg-darkBlue rounded-sm shadow-md"
       id='contactForm'
     >
       <h2 className="text-2xl text-center font-bold mb-6 text-brightYellow font-poppins">Dejanos tu consulta!</h2>
