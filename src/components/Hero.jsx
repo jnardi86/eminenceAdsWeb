@@ -22,7 +22,7 @@ const Hero = () => {
             </Fade>
           </h1>
           <Fade direction="up" cascade triggerOnce duration={1000} delay={800}>
-            <div className="w-80 md:w-[550px] mt-2 flex justify-end md:justify-center gap-2">
+            <div className="w-80 md:w-[550px] mt-2 flex justify-center gap-2">
               <AR title="Argentina" className='w-6 h-6 md:w-8 md:h-8 hover:transform hover:scale-105 transition duration-1000 ease-in-out' />
               <MX title="Mexico" className='w-6 h-6 md:w-8 md:h-8 hover:transform hover:scale-105 transition duration-1000 ease-in-out' />
               <CL title="Chile" className='w-6 h-6 md:w-8 md:h-8 hover:transform hover:scale-105 transition duration-1000 ease-in-out' />
