@@ -22,8 +22,9 @@ const BriefSection = () => {
             <li>🎯 Publicidad en redes sociales: Facebook, Instagram, TikTok, Google, YouTube, X</li>
             <li>🛒 Marketplace: Mercado Libre</li>
             <li>📈 SEO y análisis de resultados con informes detallados</li>
+            <li>💻 Diseño web: Creamos sitios modernos, rápidos y optimizados para todos los dispositivos</li>
           </ul>
-          <p className="text-lg md:text-xl font-montserrat font-semibold">
+          <p className="text-lg md:text-xl text-center font-montserrat font-semibold">
             Hace crecer tu empresa con soluciones digitales efectivas.
           </p>
         </div>

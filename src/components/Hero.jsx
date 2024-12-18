@@ -33,7 +33,7 @@ const Hero = () => {
 
         <Zoom triggerOnce duration={1200}>
           <Fade direction="up" cascade triggerOnce duration={1000} delay={600}>
-            <p className="text-lg mt-2 px-1 font-montserrat text-white text-start max-w-lg md:text-2xl hover:transform hover:scale-105 transition duration-1000 ease-in-out">
+            <p className="text-lg mt-2 px-1 font-montserrat text-white text-center max-w-lg md:text-2xl hover:transform hover:scale-105 transition duration-1000 ease-in-out">
               Llevamos tu presencia digital al siguiente nivel con estrategias a medida.
             </p>
             <div className='mt-6 flex justify-center px-4'>

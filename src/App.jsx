@@ -10,6 +10,8 @@ import MercadoLibreSection from './components/MercadoLibreSection';
 import MercadoAdsSection from './components/MercadoAdsSection';
 import ContactContainer from './components/ContactContainer';
 import CertificationsSection from './components/CertificationsSection';
+import AdvertisingSection from './components/AdvertisingSection';
+import WebDesignSection from './components/WebDesignSection';
 
 
 function App() {
@@ -17,22 +19,28 @@ function App() {
     <Layout>
       <Hero />
       <SectionWrapper>
-        <BriefSection/>
+        <BriefSection />
       </SectionWrapper>
       <SectionWrapper>
-        <ServicesSection/>
+        <ServicesSection />
       </SectionWrapper>
       <SectionWrapper>
-        <MercadoLibreSection/>
+        <MercadoLibreSection />
       </SectionWrapper>
       <SectionWrapper>
-        <MercadoAdsSection/>
+        <MercadoAdsSection />
       </SectionWrapper>
       <SectionWrapper>
-        <ContactContainer/>
+        <AdvertisingSection />
       </SectionWrapper>
       <SectionWrapper>
-        <CertificationsSection/>
+        <WebDesignSection />
+      </SectionWrapper>
+      <SectionWrapper>
+        <ContactContainer />
+      </SectionWrapper>
+      <SectionWrapper>
+        <CertificationsSection />
       </SectionWrapper>
       <WhatsAppIcon />
     </Layout>
