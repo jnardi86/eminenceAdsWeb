@@ -12,6 +12,8 @@ import ContactContainer from './components/ContactContainer';
 import CertificationsSection from './components/CertificationsSection';
 import AdvertisingSection from './components/AdvertisingSection';
 import WebDesignSection from './components/WebDesignSection';
+import DataAnalyticsSection from './components/DataAnalyticsSection';
+import OnlineSalesBoostSection from './components/OnlineSalesBoostSection';
 
 
 function App() {
@@ -28,6 +30,9 @@ function App() {
         <MercadoLibreSection />
       </SectionWrapper>
       <SectionWrapper>
+        <OnlineSalesBoostSection/>
+      </SectionWrapper>
+      <SectionWrapper>
         <MercadoAdsSection />
       </SectionWrapper>
       <SectionWrapper>
@@ -35,6 +40,9 @@ function App() {
       </SectionWrapper>
       <SectionWrapper>
         <WebDesignSection />
+      </SectionWrapper>
+      <SectionWrapper>
+        <DataAnalyticsSection/>
       </SectionWrapper>
       <SectionWrapper>
         <ContactContainer />
