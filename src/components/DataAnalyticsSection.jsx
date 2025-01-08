@@ -4,7 +4,7 @@ const DataAnalyticsSection = () => {
   return (
     <section className="flex flex-col md:flex-row max-w-screen overflow-hidden md:min-h-[600px]">
       {/* Primera mitad (título e imagen) */}
-      <div className="bg-gradient-to-b from-brightYellow via-brightYellow to-darkBlue p-8 md:p-10 md:w-1/2 flex flex-col justify-center items-center text-center md:text-left order-1 md:order-1">
+      <div className="bg-gradient-to-b from-brightYellow via-brightYellow to-darkBlue p-8 md:p-10 md:w-1/2 flex flex-col justify-center items-center text-start md:text-left order-1 md:order-1">
         <div>
           <h2 className="text-3xl text-darkBlue md:text-4xl font-bold font-poppins mb-6 leading-10">
             Servicios de <span className="bg-darkBlue text-brightYellow px-1">Reporting</span> 
