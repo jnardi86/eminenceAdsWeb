@@ -8,7 +8,7 @@ const DataAnalyticsSection = () => {
         <div>
           <h2 className="text-3xl text-darkBlue md:text-4xl font-bold font-poppins mb-6 leading-10">
             Servicios de <span className="bg-darkBlue text-brightYellow px-1">Reporting</span> 
-            para la <span className="bg-darkBlue text-brightYellow px-1">Toma de Decisiones</span>
+            para la Toma de <span className="bg-darkBlue text-brightYellow px-1">Decisiones</span>
           </h2>
           <p className="text-lg md:text-xl font-montserrat text-darkBlue mb-6">
             Transforma tus datos en información valiosa y toma decisiones estratégicas basadas en análisis precisos. 
