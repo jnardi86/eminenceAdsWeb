@@ -8,7 +8,7 @@ const Footer = () => {
         {/* Nombre de la agencia y desarrollo */}
         <div className="text-center px-2 md:text-left mb-10 md:mb-0 hover:transform hover:scale-105 transition duration-500 ease-in-out">
           <h2 className="text-lg font-bold font-montserrat text-yellow-500">Eminence Ads</h2>
-          <p className="text-sm font-montserrat">© 2024 Todos los derechos reservadoss</p>
+          <p className="text-sm font-montserrat">© 2025 Todos los derechos reservadoss</p>
         </div>
 
         {/* Redes sociales */}
