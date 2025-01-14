@@ -45,6 +45,9 @@ function App() {
 
         {/* SEO for Mobile */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        {/* Google Search Console */}
+        <meta name="google-site-verification" content="qcSRHE0U9SspY0npP03aPTX-lZtZCEhlnIwAPCsLxwE" />
       </Helmet>
       <Layout>
         <Hero />
