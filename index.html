@@ -22,9 +22,25 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-QH3M6KTTMG');
   </script>
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }
+      (window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '510891182067972');
+    fbq('track', 'PageView');
+  </script>
+  <!-- Fin del Meta Pixel Code -->
   <title>EminemAds | Agencia de Marketing Digital</title>
 </head>
 
@@ -35,6 +51,12 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PMKTT9N2" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
+  <!-- Meta Pixel Code -->
+  <noscript>
+    <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=510891182067972&ev=PageView&noscript=1" />
+  </noscript>
+  <!-- Fin del Meta Pixel Code -->
 </body>
 
 </html>
